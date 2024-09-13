@@ -3,7 +3,7 @@
  * desc: 请长按按钮查看效果。
  */
 
-import React, { useRef,useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { useLongPress } from 'react-hooks';
 
 export default () => {

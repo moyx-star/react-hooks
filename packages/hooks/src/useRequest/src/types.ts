@@ -16,7 +16,9 @@ export interface FetchState<TData, TParams extends any[]> {
 }
 
 export interface PluginReturn<TData, TParams extends any[]> {
-  onBefore?: (params: TParams) =>
+  onBefore?: (
+    params: TParams,
+  ) =>
     | ({
         stopNow?: boolean;
         returnNow?: boolean;

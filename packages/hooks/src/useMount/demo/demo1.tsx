@@ -5,7 +5,7 @@
 
 import { message } from 'antd';
 import React from 'react';
-import { useBoolean,useMount } from 'react-hooks';
+import { useBoolean, useMount } from 'react-hooks';
 
 const MyComponent = () => {
   useMount(() => {

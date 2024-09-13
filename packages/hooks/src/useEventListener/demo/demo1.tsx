@@ -3,7 +3,7 @@
  * desc: 点击按钮查看效果。
  */
 
-import React, { useRef,useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { useEventListener } from 'react-hooks';
 
 export default () => {

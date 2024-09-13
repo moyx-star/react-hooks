@@ -6,7 +6,7 @@
  *  如常见的监听输入框事件，支持多种 DOM 指定方式。
  */
 
-import React, { useRef,useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { useKeyPress } from 'react-hooks';
 
 export default () => {

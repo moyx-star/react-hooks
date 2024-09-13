@@ -3,7 +3,7 @@
  * desc: 请点击按钮或按钮外查看效果。
  */
 
-import React, { useRef,useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { useClickAway } from 'react-hooks';
 
 export default () => {

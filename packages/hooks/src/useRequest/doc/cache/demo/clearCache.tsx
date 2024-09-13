@@ -1,7 +1,7 @@
 import { message } from 'antd';
 import Mock from 'mockjs';
 import React from 'react';
-import { clearCache, useBoolean,useRequest } from 'react-hooks';
+import { clearCache, useBoolean, useRequest } from 'react-hooks';
 
 async function getArticle(): Promise<{ data: string; time: number }> {
   return new Promise((resolve) => {

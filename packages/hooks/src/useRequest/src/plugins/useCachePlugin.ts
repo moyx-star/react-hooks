@@ -4,9 +4,9 @@ import useCreation from '../../../useCreation';
 import useUnmount from '../../../useUnmount';
 import type { Plugin } from '../types';
 import type { CachedData } from '../utils/cache';
-import { getCache,setCache } from '../utils/cache';
-import { getCachePromise,setCachePromise } from '../utils/cachePromise';
-import { subscribe,trigger } from '../utils/cacheSubscribe';
+import { getCache, setCache } from '../utils/cache';
+import { getCachePromise, setCachePromise } from '../utils/cachePromise';
+import { subscribe, trigger } from '../utils/cacheSubscribe';
 
 const useCachePlugin: Plugin<any, any[]> = (
   fetchInstance,

@@ -28,7 +28,7 @@ function useEventTarget<T, U = T>(options?: Options<T, U>) {
       return setValue(transformerRef.current(_value));
     }
     // no transformer => U and T should be the same
-    return setValue(_value as unknown as T);
+    return setValue((_value as unknown) as T);
   }, []);
 
   return [

@@ -12,7 +12,7 @@ group:
 ```tsx | pure
 const { data, run } = useRequest(getUsername, {
   debounceWait: 300,
-  manual: true
+  manual: true,
 });
 ```
 

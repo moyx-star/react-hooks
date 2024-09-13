@@ -4,7 +4,7 @@
  */
 
 import { message } from 'antd';
-import React, { useCallback,useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import { useMemoizedFn } from 'react-hooks';
 
 export default () => {

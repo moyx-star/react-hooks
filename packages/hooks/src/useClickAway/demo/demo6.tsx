@@ -3,7 +3,7 @@
  * desc.zh-CN: 将 addEventListener 添加到 shadow DOM root
  */
 
-import React, { useRef,useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { useClickAway } from 'react-hooks';
 import root from 'react-shadow';
 
